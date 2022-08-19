@@ -1,0 +1,29 @@
+.root{
+    padding: 100px;
+    max-width: 750px ;
+    margin: 0 auto;
+    text-align: center;
+    span {
+        font-size: 70px;
+    }
+    
+    @media (max-width: 768px){
+        padding: 77px;
+    }
+    @media (max-width: 412px){
+        padding: 50px;
+    }
+    @media (max-width: 375px){
+        padding: 10px;
+    }
+}
+.discription{
+    font-size: 22px;
+}
+.textNotFound{
+    font-size: 38px;
+    @media (max-width: 375px){
+        font-size: 20px;
+    }
+
+}
